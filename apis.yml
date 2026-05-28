@@ -1,0 +1,32 @@
+aid: usajobs
+name: USAJOBS
+description: "US government job board"
+url: https://developer.usajobs.gov/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: USAJOBS
+    description: "US government job board"
+    humanURL: https://developer.usajobs.gov/
+    baseURL: https://developer.usajobs.gov/
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: https://developer.usajobs.gov/
+common:
+  - type: Website
+    url: https://developer.usajobs.gov/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
